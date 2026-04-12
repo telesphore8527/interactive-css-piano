@@ -1,0 +1,80 @@
+
+
+<!--ajouter de la musique pour chaque tuile avec javascript-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Piano</title>
+</head>
+<body>
+    <div class="piano-box">
+        <div class="piano-logo">
+            TelesPiano
+        </div>
+        <div class="tiles-box">
+            <div class="black-box">
+                <div class="black-tile" onclick="playNote(0)"></div>
+                <div class="black-tile" onclick="playNote(1)"></div>
+                <div class="black-tile" onclick="playNote(2)"></div>
+                <div class="black-tile" onclick="playNote(3)"></div>
+                <div class="black-tile" onclick="playNote(4)"></div>
+                <div class="black-tile" onclick="playNote(5)"></div>
+                <div class="black-tile" onclick="playNote(6)"></div>
+                <div class="black-tile" onclick="playNote(7)"></div>
+                <div class="black-tile" onclick="playNote(8)"></div>
+                <div class="black-tile" onclick="playNote(9)"></div>
+            </div>
+            <div class="white-box">
+                <div class="white-tile" onclick=playSound(0)></div>
+                <div class="white-tile" onclick=playSound(1)></div>
+                <div class="white-tile" onclick=playSound(2)></div>
+                <div class="white-tile" onclick=playSound(3)></div>
+                <div class="white-tile" onclick=playSound(4)></div>
+                <div class="white-tile" onclick=playSound(5)></div>
+                <div class="white-tile" onclick=playSound(6)></div>
+                <div class="white-tile" onclick=playSound(7)></div>
+                <div class="white-tile" onclick=playSound(8)></div>
+                <div class="white-tile" onclick=playSound(9)></div>
+                <div class="white-tile" onclick=playSound(10)></div>
+                <div class="white-tile" onclick=playSound(11)></div>
+                <div class="white-tile" onclick=playSound(12)></div>
+                <div class="white-tile" onclick=playSound(13)></div>
+            </div>
+        </div>
+    </div>
+    <!-- son des tuiles blanches -->
+    <audio src="musics/light-notes/adagio.mp3" id="s1"></audio>
+    <audio src="musics/light-notes/amazing-grace.mp3" id="s2"></audio>
+    <audio src="musics/light-notes/au-clair-de-la-lune.mp3" id="s3"></audio>
+    <audio src="musics/light-notes/aura-lee-love-me-tender.mp3" id="s4"></audio>
+    <audio src="musics/light-notes/berceuse-de-brahms.mp3" id="s5"></audio>
+    <audio src="musics/light-notes/fais-dodo-colas-mon-petit-frere.mp3" id="s6"></audio>
+    <audio src="musics/light-notes/frere-jacques-en-canon.mp3" id="s7"></audio>
+    <audio src="musics/light-notes/frere-jacques.mp3" id="s8"></audio>
+    <audio src="musics/light-notes/gymnopedie_1.mp3" id="s9"></audio>
+    <audio src="musics/light-notes/invention-1.mp3" id="s10"></audio>
+    <audio src="musics/light-notes/le-beau-danube-bleu.mp3" id="s11"></audio>
+    <audio src="musics/light-notes/les-saisons-juin-barcarolle.mp3" id="s12"></audio>
+    <audio src="musics/light-notes/menuet_anh_116.mp3" id="s13"></audio>
+    <audio src="musics/light-notes/ode-a-la-joie.mp3" id="s14"></audio>
+    
+    <!-- note des tuiles noires -->
+     <audio src="musics/dark-notes/note1.mp3" id="n1"></audio>
+     <audio src="musics/dark-notes/note2.mp3" id="n2"></audio>
+     <audio src="musics/dark-notes/note3.mp3" id="n3"></audio>
+     <audio src="musics/dark-notes/note4.mp3" id="n4"></audio>
+     <audio src="musics/dark-notes/note5.mp3" id="n5"></audio>
+     <audio src="musics/dark-notes/note6.mp3" id="n6"></audio>
+     <audio src="musics/dark-notes/note7.mp3" id="n7"></audio>
+     <audio src="musics/dark-notes/note8.mp3" id="n8"></audio>
+     <audio src="musics/dark-notes/note9.mp3" id="n9"></audio>
+     <audio src="musics/dark-notes/note10.mp3" id="n10"></audio>
+</body>
+<script src="script.js"></script>
+</html>
