@@ -49,7 +49,7 @@ let n8 = document.getElementById('n8');
 let n9 = document.getElementById('n9');
 let n10 = document.getElementById('n10');
 
-let notes = [n1,n2.n3,n4,n5,n6,n7,n8,n9,n10];
+let notes = [n1,n2,n3,n4,n5,n6,n7,n8,n9,n10];
 
 function playNote(i){
     for(let j = 0; j<10; j++){
