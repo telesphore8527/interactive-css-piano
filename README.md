@@ -4,16 +4,16 @@ An interactive virtual piano application that translates user click interactions
 
 ## 🚀 Features
 
-- **Dual-Layer Keyboard Matrix:** Features 14 white keys mapped via CSS Grid alongside 10 precise black overlay elements aligned via structured absolute offset properties[cite: 14, 15].
+- **Dual-Layer Keyboard Matrix:** Features 14 white keys mapped via CSS Grid alongside 10 precise black overlay elements aligned via structured absolute offset properties.
 - **Multi-Track Audio Node Library:** Complete localized tracking configuration supporting discrete classical melodies and dedicated sharp note stems mapped via HTML5 `<audio>` containers.
-- **Dynamic Playback Isolators:** Custom JavaScript orchestration logic designed to instant-start target sounds while concurrently resetting surrounding audio pointers to zero to prevent acoustic bleeding[cite: 16].
-- **Smooth Interaction Geometry:** Integrates visual cursor behaviors (`cursor: pointer`) and soft border adjustments mimicking physical musical instruments[cite: 14].
+- **Dynamic Playback Isolators:** Custom JavaScript orchestration logic designed to instant-start target sounds while concurrently resetting surrounding audio pointers to zero to prevent acoustic bleeding.
+- **Smooth Interaction Geometry:** Integrates visual cursor behaviors (`cursor: pointer`) and soft border adjustments mimicking physical musical instruments.
 
 ## 🧰 Tech Stack
 
-- **HTML5:** Native semantic markup framework and multi-source `<audio>` DOM embedding[cite: 15].
-- **CSS3:** Native CSS Grid, explicit dimensional calculations, and layering layouts (`z-index`)[cite: 14].
-- **JavaScript (ES6+):** Programmatic event arrays, functional iterative loops, and native dynamic audio playback states[cite: 16].
+- **HTML5:** Native semantic markup framework and multi-source `<audio>` DOM embedding.
+- **CSS3:** Native CSS Grid, explicit dimensional calculations, and layering layouts (`z-index`).
+- **JavaScript (ES6+):** Programmatic event arrays, functional iterative loops, and native dynamic audio playback states.
 
 ## 📂 Project Structure
 
@@ -34,7 +34,7 @@ To test and play the instrument locally:
 `git clone [https://github.com/Telesphore8527/teles-piano-web.git]`  
 
 2. Launch the interface:
-Open the `index.html` file within a modern web browser to access the interactive keys[cite: 15].
+Open the `index.html` file within a modern web browser to access the interactive keys.
 
 ## 📄 License  
 This project is open-source and available under the MIT License.  
